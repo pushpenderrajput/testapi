@@ -20,4 +20,5 @@ App.get('/account',async (req ,res)=>{
     })
     
 })
-App.listen(3000)
+
+module.exports = App;
